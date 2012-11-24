@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ourglass.VisualStudio", "ourglass.VisualStudio\Ourglass.VisualStudio.csproj", "{9614BB74-D84A-443F-B62F-2A2A90729C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ourglass", "ourglass\Ourglass.csproj", "{18A17A73-5062-49C3-BEC3-4D51387FD46A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9614BB74-D84A-443F-B62F-2A2A90729C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9614BB74-D84A-443F-B62F-2A2A90729C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9614BB74-D84A-443F-B62F-2A2A90729C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9614BB74-D84A-443F-B62F-2A2A90729C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A17A73-5062-49C3-BEC3-4D51387FD46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A17A73-5062-49C3-BEC3-4D51387FD46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A17A73-5062-49C3-BEC3-4D51387FD46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A17A73-5062-49C3-BEC3-4D51387FD46A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
