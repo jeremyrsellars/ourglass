@@ -17,6 +17,8 @@ namespace Ourglass.VisualStudio
 
       public VisualStudioScopeProvider(Process process)
       {
+         if (process == null)
+            throw new ArgumentNullException("process");
          this.process = process;
       }
 
