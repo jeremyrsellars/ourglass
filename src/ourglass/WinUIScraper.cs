@@ -1,6 +1,6 @@
 // WinUIScraper - A declarative approach to screen scraping in Windows 
  
-// Built on Wed 11/21/2012 16:28:19.99 
+// Built on Sat 11/24/2012 10:00:14.68 
  
  
 //////////////////////////////////////////////////////////////////////// 
@@ -640,7 +640,7 @@
       public static AutomationElement FindFirstAncestorByControlType(this AutomationElement ae, ControlType className)
       {
          var ancestor = TreeWalker.ControlViewWalker.GetParent(ae);
-         for(; ancestor != null && className != ancestor.GetCurrentPropertyValue(AutomationElement.ControlTypeProperty);
+         for (; ancestor != null && className != ancestor.GetCurrentPropertyValue(AutomationElement.ControlTypeProperty);
             ancestor = TreeWalker.ControlViewWalker.GetParent(ancestor))
          {
          }
@@ -656,6 +656,11 @@
       public static string GetName(this AutomationElement ae)
       {
          return (string)ae.GetCurrentPropertyValue(AutomationElement.NameProperty);
+      }
+
+      public static string GetClassName(this AutomationElement ae)
+      {
+         return (string)ae.GetCurrentPropertyValue(AutomationElement.ClassNameProperty);
       }
 
       public static string GetStringValue(this AutomationElement ae)

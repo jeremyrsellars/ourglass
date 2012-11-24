@@ -1,4 +1,6 @@
-﻿namespace Ourglass
+﻿using System;
+
+namespace Ourglass
 {
    public class Scope : IScope
    {

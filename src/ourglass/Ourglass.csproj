@@ -37,10 +37,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
     <Reference Include="UIAutomationClient" />
     <Reference Include="UIAutomationTypes" />
   </ItemGroup>
@@ -48,6 +44,8 @@
     <Compile Include="IScope.cs" />
     <Compile Include="IScopeProvider.cs" />
     <Compile Include="IScopeProviderFactory.cs" />
+    <Compile Include="NullScope.cs" />
+    <Compile Include="ScopeProviders\MainWindowTitleScopeProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scope.cs" />
     <Compile Include="ScopeProviderFactoryExtensions.cs" />
